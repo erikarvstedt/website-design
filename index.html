@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>nix-bitcoin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img id="logo"
+         src="files/nix-bitcoin-logo-text.png"
+         alt="nix-bitcoin">
+    <div id="socials">
+      <a href="https://github.com/fort-nix/nix-bitcoin"><img src="files/github.svg" title="github: nix-bitcoin"></a>
+      <a href="https://twitter.com/nixbitcoinorg"><img src="files/twitter.svg" title="twitter: @nixbitcoinorg"></a>
+      <a href="/btcpayserver/apps/4D1Dxb5cGnXHRgNRBpoaraZKTX3i/pos"><img src="files/bitcoin.svg" title="BTCPayServer"></a>
+      <a href="devkeys.html"><img src="files/key.svg" title="Developer Keys"></a>
+    </div>
+
+    <p>
+      nix-bitcoin is a collection of Nix packages and <a href="https://nixos.org/">NixOS</a> modules for easily installing
+      <strong>full-featured Bitcoin nodes</strong> with an emphasis on <strong>security</strong>.
+    </p>
+
+    <div id="main-links">
+      <a href="https://github.com/fort-nix/nix-bitcoin/#get-started">Get started</a>
+      <a href="https://github.com/fort-nix/nix-bitcoin/#features">Features</a>
+    </div>
+
+    <h1>nix-bitcoin demo node</h1>
+
+    This webpage is hosted on a nix-bitcoin node (<a href="https://github.com/fort-nix/nixbitcoin.org/">source code</a>) running bitcoind, clightning, clboss, electrs, btcpayserver, and joinmarket. The node is deployed using btrfs on Hetzner Online.
+
+    <h4>clightning</h4>
+    <code>
+      Public Key: 029859bb9d3cde023d43b306f688f02bf821f91790a9fa65f7ff5eb9278074eec9
+      <br>
+      Tor v3: yd4yhi55hcovg2ep76bngt7nqkmxp6uc2f6rvgxd3bg7fesuy263ukyd.onion:9735
+    </code>
+
+    <h4>electrs</h4>
+    <code>
+      s3cqv57f3vvyrgwm7v3avkvkft5xesy27goaexkql6a55yevyi5bc3qd.onion:50001
+    </code>
+
+    <h4>Matrix Homeserver</h4>
+    <a href="https://element.nixbitcoin.org">@nixbitcoin.org homeserver</a> - matrix-synapse homeserver with open registration (email required).
+
+    <h4>JoinMarket Orderbook</h4>
+    A self-hosted JoinMarket orderbook can be found <a href="/obwatcher">here</a>.
+
+    <h1>Donate</h1>
+
+    You can donate to our nix-bitcoin hosted BTCPayServer <a href="/btcpayserver/apps/4D1Dxb5cGnXHRgNRBpoaraZKTX3i/pos">here</a>.
+  </body>
+</html>
